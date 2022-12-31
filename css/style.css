@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+}
+
+.header-logo > img {
+    width: 164.29px;
+    height: 36.86px;
+}
+
+.signup .signup-btn {
+    width: 175px;
+    height: 42px;
+    border: 1px solid #8276FF;
+    border-radius: 131px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.signup-btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    width: 787px;
+    height: 138px;
+    font-style: normal;
+    font-size: 49px;
+    line-height: 69px;
+    letter-spacing: 0.007em;
+}
+
+.title-white {
+    font-family: 'Source Sans Pro', sans-serif;;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.title-yellow {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: #FFC759;
+    text-transform: uppercase;
+}
+
+.hero-desc {
+    width: 247px;
+    height: 49px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    width: 211px;
+    height: 54px;
+    display: block;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    border: none;
+}
+
+.hero-btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.hero-trial-info {
+    width: 292.09px;
+    height: 19px;
+}
+
+.hero-trial-info > img {
+    width: 16.82px;
+    height: 17px;
+}
+
+.hero-trial-info > p {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.hero-reviews > img {
+    width: 51.81px;
+    height: 19.65px;
+}
+
+.hero-reviews > p {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.hero-partners img {
+    display: block;
+    margin-right: 27px;
+}
+
+.hero-partners {
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    width: 680px;
+    height: 680px;
+}
+
+.hero-img > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.discount-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount-section > h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.discount-section > h2 span {
+    font-style: italic;
+}
+.discount-box {
+    width: 537px;
+    height: 586px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+}
+
+.discount-box > h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 52px;
+    letter-spacing: 0.007em;
+    color: rgba(255, 255, 255, 0.86);
+    text-align: center;
+}
+
+.prices {
+    display: flex;
+}
+
+.old-price {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 58px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    margin: 134px 73px;
+}
+
+.new-price {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 157px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+}
+
+.new-price-desc {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 59px;
+    letter-spacing: 0.007em;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.disocunt-box-details span {
+    display: inline-block;
+    width: 138.56px;
+    height: 49px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+}
+
+.disocunt-btn {
+    width: 223px;
+    height: 54px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    border: none;
+}
+
+.disocunt-btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.discout-condition {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    text-align: right;
+    margin-right: 2.35px;
+}
+
+.awards {
+    width: 1510px;
+    height: 229px;
+    margin: 200px auto;
+}
+
+.awards > img {
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.features-title {
+    width: 403px;
+    height: 104px;
+    margin: 180px auto;
+}
+
+.features-title h2, p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.007em;
+}
+
+.features-title h2 {
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.features-title p {
+    font-style: italic;
+    color: #FFC759;
+}
+
+.features-info {
+    width: 100%;
+    height: 813px;
+    border-radius: 26px;
+    margin-top: 80px;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    padding: 73px 54px;
+}
+
+.features-info-boxes {
+    width: 100%;
+    height: auto;
+}
+
+.features-info-boxes::after {
+    display: block;
+    width: 1152px;
+    height: 1.5px;
+    content: "";
+    background: #E7E9F2;
+    margin-top: 36px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.features-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.features-item {
+    width: 155px;
+    height: 117px;
+    cursor: pointer
+}
+
+.features-box {
+    width: 100%;
+    height: 100%;
+}
+
+.features-item::after {
+    width: 110px;
+    height: 6px;
+    content: "";
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-top: 34px;
+    display: none;
+}
+
+.features-box img {
+    margin-bottom: 13px;
+}
+
+.features-box p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+}
+
+.features-details {
+    display: none;
+}
+
+.features-block {
+    width: 100%;
+    height: auto;
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-details.active {
+   display: block;
+}
+
+.features {
+    width: 50%;
+    margin-right: 35px;
+}
+
+
+
+.features > h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+}
+
+.features-items {
+    margin-top: 30px;
+}
+
+.features-items span {
+    display: inline-block;
+    margin-top: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+}
+
+.features button {
+    margin-top: 41px;
+    width: 267px;
+    height: 54px;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    border: none;
+}
+
+.features button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.features-img {
+    display: block;
+    width: 50%;
+}
