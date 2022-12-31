@@ -58,20 +58,23 @@ body {
     margin-top: 34px;
 }
 
+.txt-style {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    letter-spacing: 0.007em;
+}
+
 .hero-title {
     width: 600px;
     height: 138px;
     margin-bottom: 20px;
     font-size: 49px;
     line-height: 69px;
-    letter-spacing: 0.007em;
 }
 
 .title-white {
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    color: #FFFFFF;
-    font-style: normal;
 }
 
 .title-yellow {
@@ -80,19 +83,16 @@ body {
     font-weight: 700;
     color: #FFC759;
     text-transform: uppercase;
+    letter-spacing: 0.007em;
 }
 
 .hero-desc {
     width: 247px;
     height: 49px;
     margin-bottom: 41px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
     text-align: left;
 }
 
@@ -200,19 +200,15 @@ body {
     height: auto;
     margin-top: 127px;  
 }
-.discount-section > h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
+.discount-section-title {
     font-weight: 600;
     font-size: 39px;
     line-height: 52px;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
     text-align: center;
     margin-bottom: 113px;
 }
 
-.discount-section > h2 span {
+.discount-section-title span {
     font-style: italic;
 }
 .discount-box {
@@ -259,13 +255,9 @@ body {
 }
 
 .old-price {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 31px;
     line-height: 58px;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
 }
 
 .old-price::after {
@@ -280,13 +272,9 @@ body {
 }
 
 .new-price {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 80px;
     line-height: 157px;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
 }
 
 .new-price-desc {
@@ -307,13 +295,9 @@ body {
     display: inline-block;
     width: 138.56px;
     height: 49px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
 }
 
 .disocunt-btn {
@@ -327,13 +311,10 @@ body {
     position: absolute;
     top: 533px;
     right: 22.35px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
+
     text-align: right;
 }
 
@@ -356,7 +337,7 @@ body {
     filter: blur(115px);
     position: absolute;
     top: -87px;
-    right: -153px;
+    right: -100px;
 }
 
 .awards {
@@ -389,11 +370,6 @@ body {
     line-height: 52px;
     text-align: center;
     letter-spacing: 0.007em;
-}
-
-.features-title h2 {
-    font-style: normal;
-    color: #FFFFFF;
 }
 
 .features-title p {
@@ -498,14 +474,10 @@ body {
 }
 
 .features-box p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
 }
 
 .features-details {
@@ -531,13 +503,9 @@ body {
 }
 
 .features > h3 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 39px;
     line-height: 52px;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
 }
 
 .features-items {
@@ -549,11 +517,11 @@ body {
     margin-top: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
 }
 
 .features-btn {
@@ -576,13 +544,9 @@ body {
 }
 
 .trusted-companies-section > h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 31px;
     line-height: 42px;    
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
     text-align: center;
 }
 
@@ -616,13 +580,9 @@ footer {
 
 
 .footer-info > p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 49px;
     line-height: 62px;
-    letter-spacing: 0.007em;
-    color: #FFFFFF;
     text-align: left;
 }
 
