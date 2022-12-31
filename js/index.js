@@ -22,3 +22,14 @@ features_boxes.forEach((box, box_index) => {
             change(box_index);
     });
 });
+
+let features = document.querySelectorAll(".features-item");
+
+for (let icon of features) {
+  icon.onclick = function () {
+    for (let icon of features) {
+      icon.classList.remove("active");
+    }
+    icon.classList.add("active");
+  };
+}
