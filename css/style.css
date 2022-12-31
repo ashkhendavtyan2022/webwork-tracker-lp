@@ -29,7 +29,7 @@ body {
     height: 36.86px;
 }
 
-.signup .signup-btn {
+.signup-btn {
     width: 175px;
     height: 42px;
     border: 1px solid #8276FF;
@@ -68,13 +68,14 @@ body {
 }
 
 .title-white {
-    font-family: 'Source Sans Pro', sans-serif;;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     color: #FFFFFF;
     font-style: normal;
 }
 
 .title-yellow {
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
     font-weight: 700;
     color: #FFC759;
@@ -95,17 +96,12 @@ body {
     text-align: left;
 }
 
-.hero-btn {
-    width: 211px;
+.btn {
     height: 54px;
     display: block;
     background: #8276FF;
     border-radius: 31.0938px;
-    border: none;
-    margin-bottom: 20px;
-}
-
-.hero-btn {
+    border: none; 
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -114,6 +110,12 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.hero-btn {
+    width: 211px;
+    margin-bottom: 20px;
 }
 
 .hero-trial-info {
@@ -316,26 +318,9 @@ body {
 
 .disocunt-btn {
     width: 223px;
-    height: 54px;
-    display: block;
     position: absolute;
     top: 469px;
     left: 157px;
-    background: #8276FF;
-    border-radius: 31.0938px;
-    border: none;
-}
-
-.disocunt-btn {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 .discout-condition {
@@ -450,10 +435,39 @@ body {
 }
 
 .features-item {
-    width: 155px;
-    height: 117px;
     cursor: pointer;
     position: relative;
+}
+
+.item1 {
+    width: 161px;
+    height: 117px;
+}
+
+.item2 {
+    width: 112px;
+    height: 117px;
+}
+
+.item3 {
+    width: 114;
+    height: 117px;
+}
+
+.item4 {
+    width: 140px;
+    height: 117px;
+}
+
+.item5 {
+    width: 54px;
+    height: 117px;
+}
+
+.item6 {
+    width: 68px;
+    height: 117px;
+    margin-right: 35px;
 }
 
 .features-box {
@@ -542,24 +556,9 @@ body {
     color: #FFFFFF;
 }
 
-.features button {
+.features-btn {
     margin-top: 41px;
     width: 267px;
-    height: 54px;
-    background: #8276FF;
-    border-radius: 31.0938px;
-    border: none;
-}
-
-.features button {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    text-transform: uppercase;
 }
 
 .features-img {
@@ -597,21 +596,25 @@ body {
     align-items: center;
 }
 
+footer {
+    width: 100%;
+    background-image: url("../images/footer.png"),
+      linear-gradient(147.19deg, #362a87 -2.99%, #2c2747 82.25%, #4323f1 157.46%);
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+  }
+
 .footer-section {
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
-
+    padding: 110px 0;
 }
 
-.footer-info {
-    margin-top: 119px;
-    margin-left: 300px;
-    margin-bottom: 100px;
-}
+
 .footer-info > p {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
@@ -623,35 +626,7 @@ body {
     text-align: left;
 }
 
-.footer-info button {
+.footer-btn {
     width: 247px;
-    height: 54px;
-    background: #8276FF;
-    border-radius: 31.0938px;
-    border: none;
     margin-top: 30px;
 }
-
-.footer-info button {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
-
-.footer-img {
-    width: 954.99px;
-    height: auto;
-}
-
-.footer-img > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    overflow: hidden;
-}
-
